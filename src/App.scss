@@ -1,0 +1,91 @@
+@import 'antd/dist/antd.css';
+
+.main-layout {
+    min-height: calc(100vh - 64px);
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.ant-menu {
+    justify-content: flex-end;
+    padding-right: 1px;
+}
+
+.todo-wrapper {
+    padding: 30px;
+
+    .ant-row {
+        padding: 8px 0;
+    }
+}
+
+.login-form-wrapper {
+    height: 100%;
+
+    .login-form {
+        width: 300px;
+
+        .ant-alert {
+            margin-bottom: 15px;
+        }
+    
+        .login-form-button {
+            width: 100%;
+        }
+    }
+}
+
+.ant-modal-body {
+    .ant-typography {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        height: 32px;
+    }
+
+    .ant-typography-edit-content {
+        left: 0;
+        width: 385px;
+    }
+
+    .ant-list-item {
+        .anticon-close {
+            cursor: pointer;
+        }
+    }
+}
+
+.add-new-todo {
+    cursor: pointer;
+    
+    .anticon {
+        margin-right: 10px;
+    }
+}
+
+.completed-list {
+    .ant-typography {
+        text-decoration: line-through;
+    }
+
+    .anticon-close {
+        color: grey;
+    }
+
+    .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: grey;
+    }
+}
+
+.ant-card {
+    .author {
+        text-transform: uppercase;
+    }
+
+    .completed-count {
+        color: #b5b5b5;
+        font-size: 12px;
+    }
+}
